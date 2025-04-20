@@ -125,6 +125,6 @@ print(rfm[["CustomerID", "RFM_Score", "Segment"]].head())
 print("\nSegmentlere Göre Müşteri Dağılımı:")
 print(rfm["Segment"].value_counts())
 
-# Segmentlerde tüm müşteri toplamı
+# Segmentlerde tüm müşteri toplamı 
 print("\nSegmentlerdeki toplam Müşteri Sayısı:")
 print(rfm["Segment"].count())
